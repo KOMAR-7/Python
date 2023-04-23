@@ -1,0 +1,27 @@
+#PYTHON RELATIONAL OPERATORS
+OPERATOR    DESCRIPTION	        SYNTAX  FUNCTION        IN-PLACE METHOD
+>	        Greater than	    a > b   gt(a, b)        __gt__(self, other)
+>=	        Greater or equal to	a >= b  ge(a, b)        __ge__(self, other)
+<	        Less than	        a < b   lt(a, b)        __lt__(self, other)
+<=	        Less or equal to	a <= b  le(a, b)        __le__(self, other)
+==	        Equal to	        a == b  eq(a, b)        __eq__(self, other)
+!=	        Not equal to        a != b  ne(a, b)        __ne__(self, other)
+
+#PYTHON MATHEMATICAL OPERATORS
+OPERATOR	DESCRIPTION	        SYNTAX  FUNCTION        IN-PLACE METHOD
++	        Addition	        a + b   add(a, b)       __add__(self, other)
+–	        Subtraction	        a - b   sub(a, b)       __sub__(self, other)
+*	        Multiplication	    a * b   mul(a, b)       __mul__(self, other)
+/	        True Division	    a / b   truediv(a, b)   __truediv__(self, other)
+//	        Floor Division	    a // b  floordiv(a, b)  __floordiv__(self, other)
+%	        Modulo	            a % b   mod(a, b)       __mod__(self, other)
+**	        Power	            a ** b  pow(a, b)       __pow__(self, other)
+
+#PYTHON BITWISE OPERATORS
+OPERATOR	DESCRIPTION	        SYNTAX  FUNCTION        IN-PLACE METHOD
+&	        Bitwise AND	        a & b   and_(a, b)      __and__(self, other)
+|	        Bitwise OR	        a | b   or_(a,b)        __or__(self, other)
+^	        Bitwise XOR	        a ^ b   xor(a, b)       __xor__(self, other)
+~           Bitwise NOT         ~ a     invert(a)       __invert__(self)
+>>          Bitwise R shift     a >> b  rshift(a, b)    __irshift__(self, other)
+<<          Bitwise L shift     a << b  lshift(a, b)    __lshift__(self, other)
